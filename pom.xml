@@ -26,7 +26,7 @@
         <scope>import</scope>
       </dependency>
       
-      <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
@@ -84,10 +84,14 @@
     <artifactId>commons-compress</artifactId>
     <version>1.21</version>
 </dependency>
+    
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.22.0</version> <!-- ya latest version -->
+</dependency>
 
-      
-      
-    </dependencies>
+  </dependencies>
   </dependencyManagement>
 
   <dependencies>
@@ -101,6 +105,11 @@
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-params</artifactId>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+    	<groupId>Zakriya</groupId>
+    	<artifactId>Automation</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
 
